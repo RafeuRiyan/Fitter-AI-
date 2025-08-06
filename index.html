@@ -5,46 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FitnessPro Gym</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>FitnessPro Gym</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#trainers">Trainers</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>FitnessPro Gym</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Welcome to FitnessPro Gym – where transformation begins.</p>
-  </section>
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>FitnessPro Gym</strong> – where transformation begins. We are committed to helping you achieve your fitness goals with modern facilities and expert trainers.</p>
+      </div>
+    </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Personal Training</li>
-      <li>Group Classes</li>
-      <li>Nutrition Coaching</li>
-    </ul>
-  </section>
+    <section id="services" class="section alt-bg">
+      <div class="container">
+        <h2>Our Services</h2>
+        <ul>
+          <li>🏋️‍♂️ Personal Training</li>
+          <li>🤸 Group Classes</li>
+          <li>🥗 Nutrition Coaching</li>
+        </ul>
+      </div>
+    </section>
 
-  <section id="trainers">
-    <h2>Meet Our Trainers</h2>
-    <p>Experienced and certified professionals to guide your fitness journey.</p>
-  </section>
+    <section id="trainers" class="section">
+      <div class="container">
+        <h2>Meet Our Trainers</h2>
+        <p>Experienced, certified, and passionate professionals dedicated to guiding your fitness journey.</p>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email" required />
-      <textarea placeholder="Your message"></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <section id="contact" class="section alt-bg">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Your message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 FitnessPro Gym. All rights reserved.</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
