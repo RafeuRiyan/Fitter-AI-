@@ -1,70 +1,98 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FitnessPro Gym</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet Fitter Ai – Your AI-Powered Fitness Coach" />
+  <title>Fitter Ai - Your AI Fitness Coach</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <h1>FitnessPro Gym</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#trainers">Trainers</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+  <header class="navbar">
+    <div class="logo">Fitter Ai</div>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="cta-button">Join Waitlist</a>
   </header>
 
-  <main>
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>Welcome to <strong>FitnessPro Gym</strong> – where transformation begins. We are committed to helping you achieve your fitness goals with modern facilities and expert trainers.</p>
-      </div>
-    </section>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Meet Your AI Fitness Coach</h1>
+      <p>Personalized workouts. Smart meal tracking. Real results.</p>
+      <a href="#" class="cta-button">Get Started</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/400x500" alt="App Preview" />
+    </div>
+  </section>
 
-    <section id="services" class="section alt-bg">
-      <div class="container">
-        <h2>Our Services</h2>
-        <ul>
-          <li>🏋️‍♂️ Personal Training</li>
-          <li>🤸 Group Classes</li>
-          <li>🥗 Nutrition Coaching</li>
-        </ul>
+  <section class="features" id="features">
+    <h2>What You'll Get</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>🔹 Personalized Workouts</h3>
+        <p>Adaptive plans tailored to your goals & schedule.</p>
       </div>
-    </section>
+      <div class="feature-card">
+        <h3>🍗 Smart Meal Logging</h3>
+        <p>Log meals easily. Let AI estimate your macros.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🧠 AI Check-Ins</h3>
+        <p>Your virtual coach motivates & adjusts plans daily.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="trainers" class="section">
-      <div class="container">
-        <h2>Meet Our Trainers</h2>
-        <p>Experienced, certified, and passionate professionals dedicated to guiding your fitness journey.</p>
+  <section class="how-it-works" id="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h4>1. Set Your Goals</h4>
+        <p>Tell us your goals, habits & preferences.</p>
       </div>
-    </section>
+      <div class="step">
+        <h4>2. Get Daily Plans</h4>
+        <p>Fitter Ai creates a plan just for you.</p>
+      </div>
+      <div class="step">
+        <h4>3. Stay on Track</h4>
+        <p>Track progress, get motivated, improve weekly.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="section alt-bg">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <form>
-          <input type="text" placeholder="Name" required />
-          <input type="email" placeholder="Email" required />
-          <textarea placeholder="Your message"></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-  </main>
+  <section class="faq" id="faq">
+    <h2>FAQ</h2>
+    <details>
+      <summary>Do I need gym equipment?</summary>
+      <p>Nope! All workouts can be done at home.</p>
+    </details>
+    <details>
+      <summary>Is it free?</summary>
+      <p>Fitter Ai will offer both free and premium plans at launch.</p>
+    </details>
+    <details>
+      <summary>What devices is it available on?</summary>
+      <p>iOS, Android and Web are all supported.</p>
+    </details>
+  </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 FitnessPro Gym. All rights reserved.</p>
-    </div>
+    <p>Made with ❤️ by Fitter Ai Team</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
+
 </html>
