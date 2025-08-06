@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FitnessPro Gym</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FitnessPro Gym</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to FitnessPro Gym – where transformation begins.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Personal Training</li>
+      <li>Group Classes</li>
+      <li>Nutrition Coaching</li>
+    </ul>
+  </section>
+
+  <section id="trainers">
+    <h2>Meet Our Trainers</h2>
+    <p>Experienced and certified professionals to guide your fitness journey.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
